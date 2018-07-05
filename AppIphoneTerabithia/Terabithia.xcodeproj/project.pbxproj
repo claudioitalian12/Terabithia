@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D14DFEE203CFB50002D55DD /* LanguageToSpeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14DFED203CFB50002D55DD /* LanguageToSpeak.swift */; };
+		5D14E012203DC732002D55DD /* MultipeerTimerConnectionSpeachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14E011203DC732002D55DD /* MultipeerTimerConnectionSpeachController.swift */; };
+		5D14E014203DC96E002D55DD /* GeneralAlertSpeachRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14E013203DC96E002D55DD /* GeneralAlertSpeachRecognizer.swift */; };
+		5D1FB24B203CF0890012917C /* MultiPeerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FB24A203CF0890012917C /* MultiPeerClass.swift */; };
+		5D1FB24D203CF0920012917C /* MultiPeerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FB24C203CF0920012917C /* MultiPeerDelegate.swift */; };
+		5D1FB24F203CF0990012917C /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FB24E203CF0990012917C /* Peer.swift */; };
+		5D4F6B82204B716F001D232F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F6B81204B716F001D232F /* CollectionViewCell.swift */; };
+		5D694FB1204B730F007D4BC7 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D694FB0204B730F007D4BC7 /* CollectionViewController.swift */; };
+		5D694FB3204B7A73007D4BC7 /* AlertMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D694FB2204B7A73007D4BC7 /* AlertMainController.swift */; };
+		5D82A43A203F780E00520661 /* bat-x4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D82A439203F780E00520661 /* bat-x4.gif */; };
+		5D82A43C203F781800520661 /* ghost-x4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D82A43B203F781800520661 /* ghost-x4.gif */; };
+		5D82A43E203F781F00520661 /* skeleton-x4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D82A43D203F781F00520661 /* skeleton-x4.gif */; };
+		5D82A442203F784400520661 /* GifUiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D82A441203F784400520661 /* GifUiImage.swift */; };
+		5D82A446203FCBBD00520661 /* slime.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D82A445203FCBBD00520661 /* slime.gif */; };
+		5DA00D742041BD0200623A58 /* SpeechRecognizerOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D732041BD0200623A58 /* SpeechRecognizerOrientation.swift */; };
+		5DCC3B09203C7F4800AD213B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B08203C7F4800AD213B /* AppDelegate.swift */; };
+		5DCC3B0B203C7F4800AD213B /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B0A203C7F4800AD213B /* SpeechController.swift */; };
+		5DCC3B0E203C7F4800AD213B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC3B0C203C7F4800AD213B /* Main.storyboard */; };
+		5DCC3B11203C7F4800AD213B /* Terabithia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B0F203C7F4800AD213B /* Terabithia.xcdatamodeld */; };
+		5DCC3B13203C7F4800AD213B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC3B12203C7F4800AD213B /* Assets.xcassets */; };
+		5DCC3B16203C7F4800AD213B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC3B14203C7F4800AD213B /* LaunchScreen.storyboard */; };
+		5DCC3B1E203C7F5A00AD213B /* SpeechRecognizerAlgoritm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B1D203C7F5A00AD213B /* SpeechRecognizerAlgoritm.swift */; };
+		5DCC3B20203C83B000AD213B /* UIFunctionSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B1F203C83B000AD213B /* UIFunctionSpeechRecognizer.swift */; };
+		5DCC3B24203C964900AD213B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B23203C964900AD213B /* MainController.swift */; };
+		5DCC3B26203C96B500AD213B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B25203C96B500AD213B /* TableViewController.swift */; };
+		5DCC3B2A203C99BF00AD213B /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC3B29203C99BF00AD213B /* TableViewCellController.swift */; };
+		5DD14422203DCF3800C680F7 /* MultipeerSendDataSpeachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD14421203DCF3800C680F7 /* MultipeerSendDataSpeachController.swift */; };
+		5DD14429203E0A3F00C680F7 /* OHCircleSegueClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD14428203E0A3F00C680F7 /* OHCircleSegueClass.swift */; };
+		5DD1442C203E159A00C680F7 /* AnimationPrepareForSegueSpeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1442B203E159A00C680F7 /* AnimationPrepareForSegueSpeach.swift */; };
+		5DD1442F203E161500C680F7 /* AnimationPrepareForSegueMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1442E203E161500C680F7 /* AnimationPrepareForSegueMain.swift */; };
+		5DD14433203E182500C680F7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD14432203E182500C680F7 /* NavigationController.swift */; };
+		5DD14436203E186E00C680F7 /* NavigationControllerOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD14435203E186E00C680F7 /* NavigationControllerOrientation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D14DFED203CFB50002D55DD /* LanguageToSpeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageToSpeak.swift; sourceTree = "<group>"; };
+		5D14E011203DC732002D55DD /* MultipeerTimerConnectionSpeachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerTimerConnectionSpeachController.swift; sourceTree = "<group>"; };
+		5D14E013203DC96E002D55DD /* GeneralAlertSpeachRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralAlertSpeachRecognizer.swift; sourceTree = "<group>"; };
+		5D1FB24A203CF0890012917C /* MultiPeerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerClass.swift; sourceTree = "<group>"; };
+		5D1FB24C203CF0920012917C /* MultiPeerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerDelegate.swift; sourceTree = "<group>"; };
+		5D1FB24E203CF0990012917C /* Peer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		5D4F6B81204B716F001D232F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5D694FB0204B730F007D4BC7 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5D694FB2204B7A73007D4BC7 /* AlertMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMainController.swift; sourceTree = "<group>"; };
+		5D82A439203F780E00520661 /* bat-x4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bat-x4.gif"; sourceTree = "<group>"; };
+		5D82A43B203F781800520661 /* ghost-x4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ghost-x4.gif"; sourceTree = "<group>"; };
+		5D82A43D203F781F00520661 /* skeleton-x4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "skeleton-x4.gif"; sourceTree = "<group>"; };
+		5D82A441203F784400520661 /* GifUiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifUiImage.swift; sourceTree = "<group>"; };
+		5D82A445203FCBBD00520661 /* slime.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slime.gif; sourceTree = "<group>"; };
+		5DA00D732041BD0200623A58 /* SpeechRecognizerOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerOrientation.swift; sourceTree = "<group>"; };
+		5DCC3B05203C7F4800AD213B /* Terabithia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terabithia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCC3B08203C7F4800AD213B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DCC3B0A203C7F4800AD213B /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
+		5DCC3B0D203C7F4800AD213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DCC3B10203C7F4800AD213B /* Terabithia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terabithia.xcdatamodel; sourceTree = "<group>"; };
+		5DCC3B12203C7F4800AD213B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCC3B15203C7F4800AD213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DCC3B17203C7F4800AD213B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCC3B1D203C7F5A00AD213B /* SpeechRecognizerAlgoritm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerAlgoritm.swift; sourceTree = "<group>"; };
+		5DCC3B1F203C83B000AD213B /* UIFunctionSpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctionSpeechRecognizer.swift; sourceTree = "<group>"; };
+		5DCC3B23203C964900AD213B /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		5DCC3B25203C96B500AD213B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5DCC3B29203C99BF00AD213B /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
+		5DD14421203DCF3800C680F7 /* MultipeerSendDataSpeachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSendDataSpeachController.swift; sourceTree = "<group>"; };
+		5DD14428203E0A3F00C680F7 /* OHCircleSegueClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHCircleSegueClass.swift; sourceTree = "<group>"; };
+		5DD1442B203E159A00C680F7 /* AnimationPrepareForSegueSpeach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPrepareForSegueSpeach.swift; sourceTree = "<group>"; };
+		5DD1442E203E161500C680F7 /* AnimationPrepareForSegueMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPrepareForSegueMain.swift; sourceTree = "<group>"; };
+		5DD14432203E182500C680F7 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		5DD14435203E186E00C680F7 /* NavigationControllerOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerOrientation.swift; sourceTree = "<group>"; };
+		5DF9DDBD203CA17C002BBC5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5DF9DDC9203CAC38002BBC5A /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DCC3B02203C7F4800AD213B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D14DFEF203D0340002D55DD /* SpeechRecognizerAlgoritm */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC3B1D203C7F5A00AD213B /* SpeechRecognizerAlgoritm.swift */,
+				5D14DFED203CFB50002D55DD /* LanguageToSpeak.swift */,
+			);
+			path = SpeechRecognizerAlgoritm;
+			sourceTree = "<group>";
+		};
+		5D268C51203CE88C005D67DC /* MultipeerGlobalcFile */ = {
+			isa = PBXGroup;
+			children = (
+				5D1FB24A203CF0890012917C /* MultiPeerClass.swift */,
+				5D1FB24C203CF0920012917C /* MultiPeerDelegate.swift */,
+				5D1FB24E203CF0990012917C /* Peer.swift */,
+			);
+			path = MultipeerGlobalcFile;
+			sourceTree = "<group>";
+		};
+		5D82A438203F77CD00520661 /* GifExtensionUImage */ = {
+			isa = PBXGroup;
+			children = (
+				5D82A43D203F781F00520661 /* skeleton-x4.gif */,
+				5D82A439203F780E00520661 /* bat-x4.gif */,
+				5D82A43B203F781800520661 /* ghost-x4.gif */,
+				5D82A445203FCBBD00520661 /* slime.gif */,
+				5D82A441203F784400520661 /* GifUiImage.swift */,
+			);
+			path = GifExtensionUImage;
+			sourceTree = "<group>";
+		};
+		5DCC3AFC203C7F4800AD213B = {
+			isa = PBXGroup;
+			children = (
+				5DCC3B07203C7F4800AD213B /* Terabithia */,
+				5DCC3B06203C7F4800AD213B /* Products */,
+				5DF9DDBC203CA17C002BBC5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCC3B06203C7F4800AD213B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC3B05203C7F4800AD213B /* Terabithia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCC3B07203C7F4800AD213B /* Terabithia */ = {
+			isa = PBXGroup;
+			children = (
+				5DD14434203E184900C680F7 /* NavigationControllerInterface */,
+				5DCC3B21203C83CE00AD213B /* SpeechRecognizerInterface */,
+				5D14DFEF203D0340002D55DD /* SpeechRecognizerAlgoritm */,
+				5DD14423203DCFA600C680F7 /* MultipeerRecognizerInterface */,
+				5DD1442A203E154C00C680F7 /* AnimationTransitionSpeechRecognizerInterface */,
+				5DCC3B22203C958700AD213B /* MainInterface */,
+				5DD1442D203E15DE00C680F7 /* AnimationTransitionMainInterface */,
+				5D268C51203CE88C005D67DC /* MultipeerGlobalcFile */,
+				5DD14427203E0A1D00C680F7 /* AnimationTransitionGlobalFile */,
+				5D82A438203F77CD00520661 /* GifExtensionUImage */,
+				5DCC3B08203C7F4800AD213B /* AppDelegate.swift */,
+				5DCC3B0C203C7F4800AD213B /* Main.storyboard */,
+				5DCC3B12203C7F4800AD213B /* Assets.xcassets */,
+				5DCC3B14203C7F4800AD213B /* LaunchScreen.storyboard */,
+				5DCC3B17203C7F4800AD213B /* Info.plist */,
+				5DCC3B0F203C7F4800AD213B /* Terabithia.xcdatamodeld */,
+			);
+			path = Terabithia;
+			sourceTree = "<group>";
+		};
+		5DCC3B21203C83CE00AD213B /* SpeechRecognizerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC3B0A203C7F4800AD213B /* SpeechController.swift */,
+				5DCC3B1F203C83B000AD213B /* UIFunctionSpeechRecognizer.swift */,
+				5D14E013203DC96E002D55DD /* GeneralAlertSpeachRecognizer.swift */,
+				5DA00D732041BD0200623A58 /* SpeechRecognizerOrientation.swift */,
+			);
+			path = SpeechRecognizerInterface;
+			sourceTree = "<group>";
+		};
+		5DCC3B22203C958700AD213B /* MainInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC3B23203C964900AD213B /* MainController.swift */,
+				5DCC3B25203C96B500AD213B /* TableViewController.swift */,
+				5DCC3B29203C99BF00AD213B /* TableViewCellController.swift */,
+				5D4F6B81204B716F001D232F /* CollectionViewCell.swift */,
+				5D694FB0204B730F007D4BC7 /* CollectionViewController.swift */,
+				5D694FB2204B7A73007D4BC7 /* AlertMainController.swift */,
+			);
+			path = MainInterface;
+			sourceTree = "<group>";
+		};
+		5DD14423203DCFA600C680F7 /* MultipeerRecognizerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5D14E011203DC732002D55DD /* MultipeerTimerConnectionSpeachController.swift */,
+				5DD14421203DCF3800C680F7 /* MultipeerSendDataSpeachController.swift */,
+			);
+			path = MultipeerRecognizerInterface;
+			sourceTree = "<group>";
+		};
+		5DD14427203E0A1D00C680F7 /* AnimationTransitionGlobalFile */ = {
+			isa = PBXGroup;
+			children = (
+				5DD14428203E0A3F00C680F7 /* OHCircleSegueClass.swift */,
+			);
+			path = AnimationTransitionGlobalFile;
+			sourceTree = "<group>";
+		};
+		5DD1442A203E154C00C680F7 /* AnimationTransitionSpeechRecognizerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5DD1442B203E159A00C680F7 /* AnimationPrepareForSegueSpeach.swift */,
+			);
+			path = AnimationTransitionSpeechRecognizerInterface;
+			sourceTree = "<group>";
+		};
+		5DD1442D203E15DE00C680F7 /* AnimationTransitionMainInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5DD1442E203E161500C680F7 /* AnimationPrepareForSegueMain.swift */,
+			);
+			path = AnimationTransitionMainInterface;
+			sourceTree = "<group>";
+		};
+		5DD14434203E184900C680F7 /* NavigationControllerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5DD14432203E182500C680F7 /* NavigationController.swift */,
+				5DD14435203E186E00C680F7 /* NavigationControllerOrientation.swift */,
+			);
+			path = NavigationControllerInterface;
+			sourceTree = "<group>";
+		};
+		5DF9DDBC203CA17C002BBC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DF9DDC9203CAC38002BBC5A /* Speech.framework */,
+				5DF9DDBD203CA17C002BBC5A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DCC3B04203C7F4800AD213B /* Terabithia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCC3B1A203C7F4800AD213B /* Build configuration list for PBXNativeTarget "Terabithia" */;
+			buildPhases = (
+				5DCC3B01203C7F4800AD213B /* Sources */,
+				5DCC3B02203C7F4800AD213B /* Frameworks */,
+				5DCC3B03203C7F4800AD213B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terabithia;
+			productName = Terabithia;
+			productReference = 5DCC3B05203C7F4800AD213B /* Terabithia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCC3AFD203C7F4800AD213B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Claudio Cavalli";
+				TargetAttributes = {
+					5DCC3B04203C7F4800AD213B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DCC3B00203C7F4800AD213B /* Build configuration list for PBXProject "Terabithia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCC3AFC203C7F4800AD213B;
+			productRefGroup = 5DCC3B06203C7F4800AD213B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCC3B04203C7F4800AD213B /* Terabithia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCC3B03203C7F4800AD213B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D82A446203FCBBD00520661 /* slime.gif in Resources */,
+				5DCC3B16203C7F4800AD213B /* LaunchScreen.storyboard in Resources */,
+				5D82A43C203F781800520661 /* ghost-x4.gif in Resources */,
+				5DCC3B13203C7F4800AD213B /* Assets.xcassets in Resources */,
+				5D82A43A203F780E00520661 /* bat-x4.gif in Resources */,
+				5DCC3B0E203C7F4800AD213B /* Main.storyboard in Resources */,
+				5D82A43E203F781F00520661 /* skeleton-x4.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DCC3B01203C7F4800AD213B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD14429203E0A3F00C680F7 /* OHCircleSegueClass.swift in Sources */,
+				5DCC3B0B203C7F4800AD213B /* SpeechController.swift in Sources */,
+				5DCC3B26203C96B500AD213B /* TableViewController.swift in Sources */,
+				5DCC3B20203C83B000AD213B /* UIFunctionSpeechRecognizer.swift in Sources */,
+				5D694FB3204B7A73007D4BC7 /* AlertMainController.swift in Sources */,
+				5DD14436203E186E00C680F7 /* NavigationControllerOrientation.swift in Sources */,
+				5D14E012203DC732002D55DD /* MultipeerTimerConnectionSpeachController.swift in Sources */,
+				5D4F6B82204B716F001D232F /* CollectionViewCell.swift in Sources */,
+				5DD1442F203E161500C680F7 /* AnimationPrepareForSegueMain.swift in Sources */,
+				5D14DFEE203CFB50002D55DD /* LanguageToSpeak.swift in Sources */,
+				5D82A442203F784400520661 /* GifUiImage.swift in Sources */,
+				5DD1442C203E159A00C680F7 /* AnimationPrepareForSegueSpeach.swift in Sources */,
+				5D1FB24F203CF0990012917C /* Peer.swift in Sources */,
+				5D694FB1204B730F007D4BC7 /* CollectionViewController.swift in Sources */,
+				5DCC3B1E203C7F5A00AD213B /* SpeechRecognizerAlgoritm.swift in Sources */,
+				5DD14422203DCF3800C680F7 /* MultipeerSendDataSpeachController.swift in Sources */,
+				5D14E014203DC96E002D55DD /* GeneralAlertSpeachRecognizer.swift in Sources */,
+				5DD14433203E182500C680F7 /* NavigationController.swift in Sources */,
+				5DCC3B09203C7F4800AD213B /* AppDelegate.swift in Sources */,
+				5D1FB24B203CF0890012917C /* MultiPeerClass.swift in Sources */,
+				5DCC3B24203C964900AD213B /* MainController.swift in Sources */,
+				5DCC3B11203C7F4800AD213B /* Terabithia.xcdatamodeld in Sources */,
+				5D1FB24D203CF0920012917C /* MultiPeerDelegate.swift in Sources */,
+				5DCC3B2A203C99BF00AD213B /* TableViewCellController.swift in Sources */,
+				5DA00D742041BD0200623A58 /* SpeechRecognizerOrientation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DCC3B0C203C7F4800AD213B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCC3B0D203C7F4800AD213B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DCC3B14203C7F4800AD213B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCC3B15203C7F4800AD213B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DCC3B18203C7F4800AD213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DCC3B19203C7F4800AD213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DCC3B1B203C7F4800AD213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = Terabithia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siad.Terabithia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DCC3B1C203C7F4800AD213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = Terabithia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siad.Terabithia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DCC3B00203C7F4800AD213B /* Build configuration list for PBXProject "Terabithia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCC3B18203C7F4800AD213B /* Debug */,
+				5DCC3B19203C7F4800AD213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCC3B1A203C7F4800AD213B /* Build configuration list for PBXNativeTarget "Terabithia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCC3B1B203C7F4800AD213B /* Debug */,
+				5DCC3B1C203C7F4800AD213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DCC3B0F203C7F4800AD213B /* Terabithia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DCC3B10203C7F4800AD213B /* Terabithia.xcdatamodel */,
+			);
+			currentVersion = 5DCC3B10203C7F4800AD213B /* Terabithia.xcdatamodel */;
+			path = Terabithia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DCC3AFD203C7F4800AD213B /* Project object */;
+}
